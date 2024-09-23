@@ -1,5 +1,6 @@
 import java.util.StringTokenizer;
-
+import java.util.Scanner;
+// recibir entrada por scanner 
 public class calc {
   public static void main(String[] args) throws Exception {
     StringTokenizer tkizer = new StringTokenizer(args[0], "+-*/()^", true);
